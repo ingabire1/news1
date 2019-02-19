@@ -129,18 +129,18 @@ def everything(limit):
         
     return everything_results
 
-# def search_everything(limit,query):
-#     '''
-#     Function that looks for articles based on top headlines
-#     '''
-#     search_everything_url = everything_search_url.format(query,limit,api_key)
-#     with urllib.request.urlopen(search_everything_url) as url:
-#         search_everything_data = url.read()
-#         search_everything_response = json.loads(search_everything_data)
+def search_everything(limit,query):
+    '''
+    Function that looks for articles based on top headlines
+    '''
+    search_everything_url = everything_search_url.format(query,limit,api_key)
+    with urllib.request.urlopen(search_everything_url) as url:
+        search_everything_data = url.read()
+        search_everything_response = json.loads(search_everything_data)
 
-#         search_everything_results=[]
+        search_everything_results=[]
 
-#         if search_everything_response['articles']:
-#             search_everything_results = process_articles(search_everything_response['articles'])
+        if search_everything_response['articles']:
+            search_everything_results = process_articles(search_everything_response['articles'])
     
-#     return search_everything_results
+    return search_everything_results
