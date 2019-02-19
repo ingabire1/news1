@@ -9,11 +9,11 @@
     padding: 11px;
     color: rgba(230, 130, 16, 0.973);
 }
-
+/* 
 #navMain a {
     color: rgba(230, 130, 16, 0.973);
     text-decoration: none;
-}
+} */
 
 #navMain .navbar-nav .nav-item:active,
 #navMain .navbar-nav .nav-item:focus {
