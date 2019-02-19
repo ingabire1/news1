@@ -10,13 +10,13 @@ def index():
     '''
     # message = 'Hello World'
 
-    # cat_general = get_sources('general')
-    # cat_business = get_sources('business')
-    # cat_entertainment = get_sources('entertainment')
-    # cat_sports = get_sources('sports')
-    # cat_tech = get_sources('technology')
-    # cat_science = get_sources('science')
-    # cat_health = get_sources('health')
+    cat_general = get_sources('general')
+    cat_business = get_sources('business')
+    cat_entertainment = get_sources('entertainment')
+    cat_sports = get_sources('sports')
+    cat_tech = get_sources('technology')
+    cat_science = get_sources('science')
+    cat_health = get_sources('health')
 
     title = 'Home | Best News Update Site'
     
