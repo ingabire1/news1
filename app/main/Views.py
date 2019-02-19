@@ -1,7 +1,7 @@
-# from flask import render_template,redirect,url_for,request
-# from . import main
-# from ..models import Sources
-# from ..request import get_sources, get_articles, topheadlines, everything, search_everything
+from flask import render_template,redirect,url_for,request
+from . import main
+from ..models import Sources
+from ..request import get_sources, get_articles, topheadlines, everything, search_everything
 
 @main.route('/')
 def index():
@@ -10,13 +10,13 @@ def index():
     '''
     # message = 'Hello World'
 
-    cat_general = get_sources('general')
-    cat_business = get_sources('business')
-    cat_entertainment = get_sources('entertainment')
-    cat_sports = get_sources('sports')
-    cat_tech = get_sources('technology')
-    cat_science = get_sources('science')
-    cat_health = get_sources('health')
+    # cat_general = get_sources('general')
+    # cat_business = get_sources('business')
+    # cat_entertainment = get_sources('entertainment')
+    # cat_sports = get_sources('sports')
+    # cat_tech = get_sources('technology')
+    # cat_science = get_sources('science')
+    # cat_health = get_sources('health')
 
     title = 'Home | Best News Update Site'
     
