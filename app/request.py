@@ -33,7 +33,8 @@ def get_sources(category):
 
         if get_sources_response['sources']:
             sources_results = process_results(get_sources_response['sources'])
-        return sources_results
+    
+    return sources_results
 
 def process_results(sources_list):
     '''
@@ -110,7 +111,6 @@ def topheadlines(limit):
             topheadlines_results = process_articles(topheadlines_response['articles'])
         
     return topheadlines_results
-
 
 def everything(limit):
     '''

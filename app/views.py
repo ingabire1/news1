@@ -22,10 +22,9 @@ def index():
     
     return render_template('index.html',title=title, general=cat_general, business = cat_business, entertainment = cat_entertainment, sports = cat_sports, tech = cat_tech, science = cat_science, health = cat_health)
 
-
-  @main.route('/articles/<source_id>&<int:per_page>')
-  def articles(source_id,per_page):
-     '''
+@main.route('/articles/<source_id>&<int:per_page>')
+def articles(source_id,per_page):
+    '''
     Function that returns articles based on their sources
     '''
     # print(source_id)
