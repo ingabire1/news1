@@ -30,14 +30,14 @@
         transition: padding-top 0.5s ease-in-out, padding-bottom 0.5s;
         letter-spacing: 1px;
         background: transparent;
-    /* }
+    }
     #navMain .nav-link.active {
         outline: none;
         background-color: rgba(26, 25, 24, 0.699);
     }
     #navMain .nav-link.active:hover {
         color: white;
-        background-color: rgba(230, 210, 97, 0.637) */
+        background-color: rgba(230, 210, 97, 0.637)
     }
     #navMain.navbar-shrink {
         padding-top: 10px;
@@ -96,7 +96,7 @@ h1 {
     padding: 0;
     border-radius: 10px;
 }
-
+/* 
 .words {
     padding-right: 20px;
     padding-left: 20px;
@@ -129,4 +129,4 @@ p{
 }
 .heading #search{
     margin-top: 25rem;
-}
+} */
