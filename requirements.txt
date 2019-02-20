@@ -6,7 +6,6 @@ enum34==1.1.6
 Flask==1.0.2
 Flask-Bootstrap==3.3.7.1
 Flask-Script==2.0.6
-gyp==0.1
 idna==2.6
 ipaddress==1.0.17
 itsdangerous==1.1.0
