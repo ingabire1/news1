@@ -16,7 +16,8 @@ News highlight is a web application  that user can view previews articles from d
 ## Cloning the application
 * In your terminal: 
 
-$ source/bin/activate $ git clone https://github.com/ingabire1/news1
+$ source/bin/activate 
+$ git clone https://github.com/ingabire1/news1.giit
 $ cd NewsHighlight
 
 ## Running the application
