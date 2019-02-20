@@ -1,61 +1,93 @@
-{% extends 'base.html'%}
-{% import 'macros.html' as macro %}
+{% extends 'bootstrap/base.html'%}
 
-{% block content%}
+{% import 'macros.html' as macro%}
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+{% endblock %}
+{% block content %}
+
 <div class="container-fluid">
-    <div class="row" id="top">
+    <div class="row">
         <div class="col-md-12 heading">
             <h1>News Highlights</h1>
         </div>
     </div>
-    <hr>
-    <div class="row">
+
+    <div class="container-fluid up">
         <div class="col-md-12 categories">
             <h2>General News</h2>
         </div>
-        {{macro.sourceCategories(general)}}
-    </div>
-    <hr>
-    <div class="row" id="business">
-        <div class="col-md-12 categories">
-            <h2>Business News</h2>
+        <div>
+            {{macro.displaySources(general)}}
         </div>
-        {{macro.sourceCategories(business)}}
+
     </div>
-    <hr>
-    <div class="row" id="entertainment">
-        <div class="col-md-12 categories">
-            <h2>Entertainment News</h2>
-        </div>
-        {{macro.sourceCategories(entertainment)}}
-    </div>
-    <hr>
-    <div class="row" id="sports">
-        <div class="col-md-12 categories">
-            <h2>Sports News</h2>
-        </div>
-        {{macro.sourceCategories(sports)}}
-    </div>
-    <hr>
-    <div class="row" id="tech">
+    <div class="row up">
         <div class="col-md-12 categories">
             <h2>Technology News</h2>
         </div>
-        {{macro.sourceCategories(tech)}}
+        <div>
+            {{macro.displaySources(technology)}}
+        </div>
+
     </div>
-    <hr>
-    <div class="row" id="science">
+    <div class="row up">
         <div class="col-md-12 categories">
             <h2>Science News</h2>
         </div>
-        {{macro.sourceCategories(science)}}
+        <div>
+
+            {{macro.displaySources(science)}}
+        </div>
+
     </div>
-    <hr>
-    <div class="row" id="health">
+    <div class="row up">
+        <div class="col-md-12 categories">
+            <h2>Entertainment News</h2>
+        </div>
+        <div>
+            {{macro.displaySources(entertainment)}}
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="row up">
+        <div class="col-md-12 categories">
+            <h2>Sports News</h2>
+        </div>
+        <div>
+            {{macro.displaySources(sports)}}
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="row up">
         <div class="col-md-12 categories">
             <h2>Health News</h2>
         </div>
-        {{macro.sourceCategories(health)}}
+        <div>
+            {{macro.displaySources(health)}}
+        </div>
+
+    </div>
+
+    <div class="row up">
+        <div class="col-md-12 categories">
+            <h2>Business News</h2>
+        </div>
+        <div>
+            {{macro.displaySources(business)}}
+        </div>
+
     </div>
 </div>
-{% endblock%}
+{% endblock %}

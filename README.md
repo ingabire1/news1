@@ -2,7 +2,7 @@
 
 News Highlight is a  web application that provide different News source
 
-## created by Cynthia.K, 19th,Feb,2019
+## created by Aimee Sylvie Ingabire, 20th,Feb,2019
 
 ## Description 
 News highlight is a web application  that user can view previews articles from different sources.the user can either choose to see news from one sources,user can also see the date, image and description of the news.where the date is the time the news was posted. can read a full articles from the source
@@ -16,7 +16,7 @@ News highlight is a web application  that user can view previews articles from d
 ## Cloning the application
 * In your terminal: 
 
-$ source/bin/activate $ git clone https:
+$ source/bin/activate $ git clone https://github.com/ingabire1/news1
 $ cd NewsHighlight
 
 ## Running the application
@@ -42,6 +42,7 @@ for any support please contact on:
 * phone:0785642202
 * email:ingabire.sylvie@gmail.com
 ##License
-**[MIT](http://choosealicense.com/license/mit/)**  Copyright (c) 2019 AIMEE SYLVIE INGABIRE
+**[MIT](http://choosealicense.com/license/mit/)**  Copyright (c) 2019 Ingabire Aimee Sylvie
+
 
 
